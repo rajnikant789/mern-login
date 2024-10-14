@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: 'https://mern-login-mhhp.onrender.com', // Replace with your frontend's URL
+    origin: 'https://astonishing-phoenix-151e07.netlify.app', // Replace with your frontend's URL
     credentials: true
 }));
 
