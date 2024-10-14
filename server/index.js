@@ -13,7 +13,8 @@ const app = express();
 app.use(express.json());
 app.use(cors({
     origin: 'https://astonishing-phoenix-151e07.netlify.app', // Replace with your frontend's URL
-    credentials: true
+    credentials: true,            //access-control-allow-credentials:true
+    optionSuccessStatus:200
 }));
 
 
