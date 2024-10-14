@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: 'https://astonishing-phoenix-151e07.netlify.app', // Replace with your frontend's URL
+    origin: 'https://astonishing-biscochitos-472c87.netlify.app', // Replace with your frontend's URL
     credentials: true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }));
