@@ -13,7 +13,7 @@ function Login({ setIsLoggedIn, isLoggedIn }) {
         axios.post("https://mern-login-mhhp.onrender.com/login", { email, password }, { withCredentials: true })
             .then(result => {
                 if (result.data === "Success") {
-                    axios.get('http://localhost:3001/user', { withCredentials: true })
+                    axios.get('https://mern-login-mhhp.onrender.com/user', { withCredentials: true })
                         .then(response => {
                             if (response.data.user) {
                               setIsLoggedIn(true);
