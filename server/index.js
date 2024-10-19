@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: 'https://glittery-phoenix-0bc034.netlify.app/', // Replace with your frontend's URL
+    origin: 'https://glittery-phoenix-0bc034.netlify.app', // Replace with your frontend's URL
     credentials: true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }));
